@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\controllers\\useradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:controllers\\useradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\models\\useradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:models\\useradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|e:\\education\\mca\\darshanuniversity\\sem_4\\project\\apis\\myresume_api\\myresume_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{EDD795D9-EF70-42C5-A0D7-2DBEF5C45B8A}|MyResume_API.csproj|solutionrelative:myresume_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAdmin.cs",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Models\\UserAdmin.cs",
+              "RelativeDocumentMoniker": "Models\\UserAdmin.cs",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Models\\UserAdmin.cs",
+              "RelativeToolTip": "Models\\UserAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T23:05:17.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAdminController.cs",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\UserAdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserAdminController.cs",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\UserAdminController.cs",
+              "RelativeToolTip": "Controllers\\UserAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T23:03:52.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T17:19:43.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T17:19:00.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwCcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T17:18:56.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResumeController.cs",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\ResumeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResumeController.cs",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\ResumeController.cs",
+              "RelativeToolTip": "Controllers\\ResumeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:50:23.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAAIwNgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:49:09.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:43:16.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyResume_API.http",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\MyResume_API.http",
+              "RelativeDocumentMoniker": "MyResume_API.http",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\MyResume_API.http",
+              "RelativeToolTip": "MyResume_API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-13T17:19:04.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\Education\\MCA\\DarshanUniversity\\Sem_4\\Project\\APIs\\MyResume_API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T17:19:17.076Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

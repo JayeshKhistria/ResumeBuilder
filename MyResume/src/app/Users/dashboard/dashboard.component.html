@@ -1,0 +1,102 @@
+<section id="dashboard" class="p-5 bg-light">
+  <div class="container  w-50 p-5">
+    <div class="row">
+      <div class="card shadow">
+        <div class="card-body">
+          <h1 class="card-title h1 text-danger text-center">User Info</h1>
+          <!-- <p class="card-text">Welcome To MyResume Dashboard </p> -->
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Fullname : {{ userData.fullname }}</li>
+          <li class="list-group-item">Username : {{ userData.username }}</li>
+          <li class="list-group-item">Password : {{ userData.password }}</li>
+          <li class="list-group-item">Gender : {{ userData.gender }}</li>
+          <li class="list-group-item">Address : {{ userData.address }}</li>
+          <li class="list-group-item">Mobile : {{ userData.mobile }}</li>
+        </ul>
+        <div class="card-body">
+          <!-- <a href="#" class="card-link">Card link</a> -->
+          <!-- <a href="#" class="card-link">Another link</a> -->
+          <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#updateUserModal">
+            Update Request
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#updateUserModal">
+  Click To Update User
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="updateUserModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Update User Data</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form #registerForm="ngForm" (ngSubmit)="updateUser(registerForm)" class="mt-3">
+
+          <input type="text" [(ngModel)]="userData.fullname" class="form-control" placeholder="Enter Your Fullname"
+            name="fullname" #fullname="ngModel" required="required" />
+          <small class="text-danger mt-0" *ngIf="!fullname.valid && fullname.touched">Please Enter Your
+            FullName</small>
+
+          <input type="text" [(ngModel)]="userData.username" class="form-control mt-3 bg-light" placeholder="Enter Your Username"
+            name="username" #username="ngModel" required="required" readonly disabled="" />
+          <small class="text-danger mb-5">*note : You can not change your username</small>
+          <!-- <small class="text-warning mt-0" *ngIf="!username.valid && username.touched">Please Enter Your Name</small> -->
+
+          <input type="text" [(ngModel)]="userData.password" name="password" class="form-control mt-3"
+            placeholder="Enter Your Password" required="required" #password="ngModel"  minlength="4" maxlength="8"  />
+            <small class="text-danger" *ngIf="password.touched && password.errors?.['required']">Please Enter Your
+            Password<br></small>
+          <small class="text-danger"
+            *ngIf="!password.valid && password.errors?.['minlength'] || password.errors?.['maxlength']">Enter Password
+            with length 4-8<br></small>
+
+          <input type="radio" [(ngModel)]="userData.gender" name="gender" value="Male" class="radio mt-3" />
+          <span class="text-dark">&emsp;Male</span>
+
+          <input type="radio" [(ngModel)]="userData.gender" name="gender" value="Female" class="radio mt-3 ms-5" /><span
+            class="text-dark">&emsp;Female</span>
+
+          <input type="text" [(ngModel)]="userData.address" name="address" class="form-control mt-3"
+            placeholder="Enter Your Address" required="required" #address="ngModel" />
+          <small class="text-danger" *ngIf="!address.valid && address.touched">Please Enter Your address</small>
+
+          <input type="text" [(ngModel)]="userData.mobile" name="mobile" class="form-control mt-3"
+            placeholder="Enter Your Mobile" required="required" #mobile="ngModel" pattern="^[0-9]{10}$" minlength="10"
+            maxlength="10" />
+          <small class="text-danger" *ngIf="mobile.touched && mobile.errors?.['required']">Please Enter Your
+            Mobile</small>
+          <small class="text-danger" *ngIf="!mobile.valid && mobile.errors?.['pattern']">Enter 10 Digit Mobile
+            Number</small>
+
+          <br>
+          <button type="submit" class="btn btn-outline-danger mt-3" data-bs-dismiss="modal"
+            [disabled]="!registerForm.valid">Update</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal">updateUser</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <h1>{{ userData | json }}</h1>
+<h1>{{ userData.fullname }}</h1>
+<h1>{{ userData.user_id }}</h1> -->

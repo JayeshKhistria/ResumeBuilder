@@ -1,0 +1,67 @@
+<section id="contact">
+  <div class="">
+    <div class="container-fluid text-center py-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <h1>Have any questions? <span class="text-danger display-5"><u>Contact Us</u></span></h1>
+          </div>
+          <div>
+            <div class="container card shadow mt-5">
+              <div class="row">
+
+                <div class="col-md-6 bg-light p-5 my-auto">
+                  <h3>Have any questions for our team?</h3>
+                  <p class="text-muted h5">Our customer support team is here to help. Simply drop us an email or give us
+                    a call or mail reply. Our opening hours are 9 a.m. to 6 p.m.</p>
+                  <br>
+
+                  <p class="bold h4 text-danger fw-bold">support@myresume.io</p>
+                  <hr>
+                  <a routerLink="" class="text-danger text-decoration-none display-2"> MyResume</a>
+
+
+                </div>
+
+                <div class="col-md-6 my-auto px-5">
+                  <form #contactForm="ngForm" (ngSubmit)="contact(contactForm)">
+
+                    <div class="mb-3">
+                      <input type="text" class="form-control" ngModel name='fullmame' placeholder="Enter Your Full Name"
+                        required #fullname="ngModel">
+                      <!-- <label class="form-label" for="fullname">Full Name</label> -->
+                      <small class="text-danger" *ngIf="!fullname.valid && fullname.touched">Please Enter Your Full
+                        Name</small>
+                    </div>
+
+                    <div class="mb-3">
+                      <input type="email" class="form-control" ngModel name="email" value="abc@gmail.com"
+                        placeholder="Enter Your Email Address" required #email="ngModel" email>
+                      <small class="text-danger" *ngIf="!email.valid && email.touched">Please Enter Your Valid Mail
+                        Address</small>
+                    </div>
+
+                    <div class="mb-3">
+                      <textarea class="form-control" name="message" ngModel placeholder="Enter Your Message" required
+                        #message="ngModel"></textarea>
+                      <small class="text-danger" *ngIf="!message.valid && message.touched">Please Enter Your
+                        Message</small>
+                    </div>
+
+
+                    <div class="mb-3">
+                      <button class="btn btn-outline-danger" type="submit" [disabled]="!contactForm.valid">Send Message</button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

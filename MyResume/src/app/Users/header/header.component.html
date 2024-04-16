@@ -1,0 +1,111 @@
+<div *ngIf="!status.adminLoginStatus" class="sticky-top">
+  <section id="header-section" >
+    <header class="shadow">
+      <div class="container-fluid bg-danger text-capitalize">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                <a class="navbar-brand text-light" routerLink="/">MyResume</a>
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon navbar-light"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                      <a class="nav-link text-light" routerLink="/" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" routerLink="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" routerLink="templates">Templates</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" routerLink="contact">Contact</a>
+                    </li>
+                  </ul>
+
+
+                  <span *ngIf="!status.userLoginStatus">
+                    <button class="btn btn-dark mx-2" routerLink="login">Login</button>
+                    <button class="btn btn-dark" routerLink="register">Register</button>
+                  </span>
+
+                  <span *ngIf="status.userLoginStatus">
+                    <i class="fa fa-user-circle navbar-brand text-dark" aria-hidden="true"></i>
+                    <span class="text-light navbar-brand">{{ _userApi.userData.username }}</span>
+                    <button class="btn btn-dark mx-2" routerLink="user/dashboard">Dashboard</button>
+                    <button class="btn btn-dark mx-2" routerLink="user/dashboard" (click)="userLogout()">Logout</button>
+                  </span>
+
+                  <span *ngIf="status.adminLoginStatus">
+                    <i class="fa fa-user-circle navbar-brand text-dark" aria-hidden="true"></i>
+                    <span class="text-light navbar-brand">{{ _adminApi.userData.username }}</span>
+                    <button class="btn btn-dark mx-2" routerLink="admin/dashboard">Dashboard</button>
+                    <button class="btn btn-dark mx-2" routerLink="admin/dashboard"
+                      (click)="adminLogout()">Logout</button>
+                  </span>
+
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+</div>
+
+
+
+
+
+
+<div *ngIf="status.adminLoginStatus" class="sticky-top">
+  <section id="header-section">
+    <header class="">
+      <div class="container-fluid bg-danger text-capitalize">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                <a class="navbar-brand text-light" routerLink="/">MyResume</a>
+                <!-- <h1 routerLink="">My Resume</h1> -->
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon navbar-light"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+
+                  <span *ngIf="!status.adminLoginStatus">
+                    <button class="btn btn-dark mx-2" routerLink="admin/login">Login</button>
+                    <button class="btn btn-dark" routerLink="admin/register">Register</button>
+                  </span>
+
+
+                  <span *ngIf="status.adminLoginStatus">
+                    <i class="fa fa-user-circle navbar-brand text-dark" aria-hidden="true"></i>
+                    <span class="text-light navbar-brand">{{ _adminApi.adminData.username }}</span>
+                    <button class="btn btn-dark mx-2" routerLink="admin/dashboard">Dashboard</button>
+                    <button class="btn btn-dark mx-2" (click)="adminLogout()">Logout</button>
+                  </span>
+
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+</div>

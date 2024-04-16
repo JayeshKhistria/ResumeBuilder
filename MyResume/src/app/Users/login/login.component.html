@@ -1,0 +1,59 @@
+<section class="bg-light">
+  <div class="container-fluid text-center w-50 ">
+    <div class="row p-5">
+      <div class="col-md-12 p-5 card border-0 mx-auto text-center shadow">
+        <h1 class="text-danger">User Login Form</h1>
+        <span class="border-bottom mb-5"></span>
+
+        <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="w-75 mx-auto ">
+
+          <div class="input-group mb-3">
+            <span class="p-3 bg-danger"><i class="fa-solid fa-user"></i></span>
+            <input type="text" [(ngModel)]="usersModel.username" class="form-control" placeholder="Enter Your Username"
+              name="username" #username="ngModel" required="required" email />
+            <!-- <small class="text-warning mt-0" *ngIf="!username.valid && username.touched">Please Enter Your
+            Username</small> -->
+          </div>
+          <small class="text-warning mt-0 pt-0" *ngIf="username.touched && username.errors?.['required']">Please Enter
+            Your
+            Email</small>
+          <small class="text-warning mt-0" *ngIf="!username.valid && username.errors?.['email']">Please Enter Valid
+            Email</small>
+
+          <!-- <input type="text" [(ngModel)]="usersModel.username" class="form-control" placeholder="Enter Your Username"
+            name="username" #username="ngModel" required="required" email />
+
+          <small class="text-warning mt-0" *ngIf="username.touched && username.errors?.['required']">Please Enter Your
+            Email</small>
+          <small class="text-warning mt-0" *ngIf="!username.valid && username.errors?.['email']">Please Enter Valid
+            Email</small> -->
+
+          <div class="input-group mb-3">
+            <span class="p-3 bg-danger" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" [(ngModel)]="userPassword" name="password" class="form-control"
+              placeholder="Enter Your Password" required="required" #password="ngModel" minlength="4" maxlength="8" />
+          </div>
+          <small class="text-warning" *ngIf="password.touched && password.errors?.['required']">Please Enter Your
+            Password<br></small>
+          <small class="text-warning"
+            *ngIf="!password.valid && password.errors?.['minlength'] || password.errors?.['maxlength']">Enter Password
+            with length 4-8<br></small>
+
+          <!-- <input type="password" [(ngModel)]="userPassword" name="password" class="form-control mt-3"
+            placeholder="Enter Your Password" required="required" #password="ngModel" minlength="4" maxlength="8" />
+          <small class="text-warning" *ngIf="password.touched && password.errors?.['required']">Please Enter Your
+            Password<br></small>
+          <small class="text-warning"
+            *ngIf="!password.valid && password.errors?.['minlength'] || password.errors?.['maxlength']">Enter Password
+            with length 4-8<br></small> -->
+
+          <button type="submit" class="btn btn-outline-light mt-3" [disabled]="!loginForm.valid">Login</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <app-dashboard [data]="loginData"></app-dashboard> -->

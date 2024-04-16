@@ -1,0 +1,97 @@
+/* Reference : https://colorhunt.co/palettes/light */
+
+
+/* You can add global styles to this file, and also import other style files */
+:root{
+  --bg-danger : #8EC3B0;
+  --bg-light : #DEF5E5;
+  --bg-dark : #0c5750;
+  --white : #fff;
+  --black : #000000;
+  --error : #B3FFAE;
+}
+
+body::-webkit-scrollbar,textarea::-webkit-scrollbar {
+  display: none;
+}
+
+/* textarea::-webkit-scrollbar {
+  display: none;
+} */
+
+.bg-danger {
+  background-color: var(--bg-danger) !important;
+}
+
+.bg-light{
+  background-color: var(--bg-light) !important;
+}
+
+.bg-dark{
+  background-color: var(--bg-dark) !important;
+}
+
+.text-light{
+  color : var(--white) !important;
+}
+.text-danger{
+  color : var(--bg-danger) !important;
+}
+.text-warning{
+  color : var(--error) !important;
+}
+
+.border-danger{
+  border-color: var(--bg-danger) !important;
+}
+
+.btn ,.btn-danger,.btn-outline-danger,.btn-dark,.btn-outline-dark.btn-secondary{
+  background-color: var(--bg-dark) !important;
+  border : 1px solid var(--bg-dark) !important;
+  color : var(--bg-light) !important;
+  margin: 0;
+  padding: 0;
+  padding : 10px 30px 10px 30px;
+  width: auto;
+  /* background-color: transparent; */
+}
+
+.btn:hover{
+  background-color: var(--bg-danger) !important;
+  color : var(--bg-dark) !important;
+}
+
+.shadow{
+  /* border-color: #ccc !important; */
+  /* box-shadow: 0px 30px 6px 3px rgba(12, 87, 80), 0 3px 6px 3px rgba(12, 87, 80) !important; */
+  box-shadow: 0px 3px 6px 3px rgba(12, 87, 80), 0 3px 6px 0px rgba(12, 87, 80) !important;
+}
+.shadow:hover{
+  box-shadow: none !important;
+  transform: scale(0.99);
+}
+
+
+
+input,textarea,.form-control{
+  border :none !important;
+  border-bottom: 2px solid var(--bg-danger) !important;
+  /* color: var(--bg-danger); */
+}
+input,.form-control:focus{
+  box-shadow: none !important;
+}
+
+
+textarea.ng-invalid.ng-touched,
+input.ng-invalid.ng-touched{
+  /* border: #B3FFAE 2px solid !important; */
+  color : var(--text-warning) !important;
+}
+
+input[type="radio"].radio{
+  /* background-color: var(--bg-danger) !important; */
+  /* border: 1px solid var(--white) !important; */
+  /* accent-color: var(--bg-danger); */
+  accent-color: var(--bg-danger);
+}
